@@ -33,19 +33,19 @@
       "symbol": "USDC",
       "name": "USD Coin",
       "type": "ERC-20",
-      "notes": "Native USDC issued by Circle"
+      "notes": "USDC issued by Circle"
     },
     {
       "symbol": "USDT",
       "name": "Tether",
       "type": "ERC-20",
-      "notes": ""
+      "notes": "USDT issued by Tether"
     },
     {
       "symbol": "DAI",
       "name": "DAI",
       "type": "ERC-20",
-      "notes": "DAI by MakerDAO"
+      "notes": "DAI issued by MakerDAO"
     },
     {
       "symbol": "USDS",
