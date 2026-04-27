@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "Crypto context file. Skills should read this to understand what assets, chains, and platforms the user can interact with.",
+    "description": "Crypto context file. Skills should read this to understand what assets the user can interact with.",
     "version": "1.0",
     "last_updated": ""
   },
