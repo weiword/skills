@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "Wallet addresses. Kept separate from crypto_context.json for security. Skills should read this only when wallet-specific operations are needed.",
+    "description": "Wallet addresses.",
     "version": "1.0",
     "last_updated": ""
   },
