@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "description": "Crypto context file. Skills should read this to understand what chains the user can interact with.",
+    "version": "1.0",
+    "last_updated": ""
+  },
+  "chains": [
+    {
+      "name": "Ethereum",
+      "chain_id": 1,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://etherscan.io",
+      "notes": "L1 mainnet"
+    },
+    {
+      "name": "Base",
+      "chain_id": 8453,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://basescan.org",
+      "notes": "Coinbase L2"
+    },
+    {
+      "name": "Arbitrum",
+      "chain_id": 42161,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://arbiscan.io",
+      "notes": "Arbitrum One L2"
+    },
+    {
+      "name": "Unichain",
+      "chain_id": 130,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://uniscan.xyz",
+      "notes": "Uniswap's L2, optimized for DeFi and liquidity"
+    }
+  ]
+}
