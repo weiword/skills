@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "description": "Wallet addresses. Kept separate from crypto_context.json for security. Skills should read this only when wallet-specific operations are needed.",
+    "version": "1.0",
+    "last_updated": ""
+  },
+  "wallets": [
+    {
+      "label": "Main Wallet",
+      "address": "0xYourAddressHere",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Unichain"
+      ],
+      "type": "EOA",
+      "custodian": "self",
+      "wallet_app": "",
+      "notes": ""
+    },
+    {
+      "label": "Cold Storage",
+      "address": "0xYourColdWalletHere",
+      "chains": [
+        "Ethereum"
+      ],
+      "type": "EOA",
+      "custodian": "self",
+      "wallet_app": "",
+      "notes": ""
+    }
+  ]
+}
