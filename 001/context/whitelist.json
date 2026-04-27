@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "description": "Crypto context file. Skills should read this to understand what assets, chains, and platforms the user can interact with.",
+    "version": "1.0",
+    "last_updated": ""
+  },
+  "assets": [
+    {
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "chain": [
+        "Ethereum",
+        "Arbitrum",
+        "Base"
+      ],
+      "type": "ERC-20",
+      "notes": "Wrapped BTC pegged 1:1 to BTC"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "chain": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Unichain"
+      ],
+      "type": "native",
+      "notes": ""
+    },
+    {
+      "symbol": "SPX",
+      "name": "S&P 500",
+      "chain": [
+        "Base"
+      ],
+      "type": "synthetic / RWA",
+      "notes": "Synthetic S&P 500 exposure, e.g. via Avantis or similar"
+    },
+    {
+      "symbol": "XAU",
+      "name": "Gold",
+      "chain": [
+        "Base"
+      ],
+      "type": "synthetic / RWA",
+      "notes": "Synthetic gold exposure, e.g. via Avantis or similar"
+    },
+    {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "chain": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Unichain"
+      ],
+      "type": "ERC-20",
+      "notes": "Native USDC issued by Circle"
+    },
+    {
+      "symbol": "USDT",
+      "name": "Tether",
+      "chain": [
+        "Ethereum",
+        "Arbitrum"
+      ],
+      "type": "ERC-20",
+      "notes": ""
+    },
+    {
+      "symbol": "USDS",
+      "name": "USDS (Sky)",
+      "chain": [
+        "Ethereum",
+        "Base"
+      ],
+      "type": "ERC-20",
+      "notes": "Formerly DAI, rebranded by Sky (MakerDAO)"
+    }
+  ],
+  "chains": [
+    {
+      "name": "Ethereum",
+      "chain_id": 1,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://etherscan.io",
+      "notes": "L1 mainnet"
+    },
+    {
+      "name": "Base",
+      "chain_id": 8453,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://basescan.org",
+      "notes": "Coinbase L2"
+    },
+    {
+      "name": "Arbitrum",
+      "chain_id": 42161,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://arbiscan.io",
+      "notes": "Arbitrum One L2"
+    },
+    {
+      "name": "Unichain",
+      "chain_id": 130,
+      "symbol": "ETH",
+      "type": "EVM",
+      "explorer": "https://uniscan.xyz",
+      "notes": "Uniswap's L2, optimized for DeFi and liquidity"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "Uniswap",
+      "type": "DEX",
+      "url": "https://app.uniswap.org",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Unichain"
+      ],
+      "use_cases": [
+        "swap",
+        "liquidity provision"
+      ],
+      "notes": "Primary DEX across all supported chains"
+    },
+    {
+      "name": "Avantis",
+      "type": "Perpetuals / Synthetics",
+      "url": "https://avantisfi.com",
+      "chains": [
+        "Base"
+      ],
+      "use_cases": [
+        "leveraged trading",
+        "synthetic assets",
+        "S&P500",
+        "Gold"
+      ],
+      "notes": "Used for synthetic RWA exposure (SPX, XAU) and perps"
+    },
+    {
+      "name": "Aave",
+      "type": "Lending / Borrowing",
+      "url": "https://app.aave.com",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum"
+      ],
+      "use_cases": [
+        "lending",
+        "borrowing",
+        "collateral"
+      ],
+      "notes": "Primary lending protocol across supported chains"
+    }
+  ]
+}
