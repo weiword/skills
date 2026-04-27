@@ -21,11 +21,9 @@
       "url": "https://avantisfi.com",
       "use_cases": [
         "leveraged trading",
-        "synthetic assets",
-        "S&P500",
-        "Gold"
+        "synthetic assets"
       ],
-      "notes": "Used for synthetic RWA exposure (SPX, XAU) and perps"
+      "notes": "Used for synthetic RWA exposure and perps"
     },
     {
       "name": "Aave",
